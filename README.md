@@ -12,7 +12,7 @@ npm run dev
 
 ## Usage
 
-There is an example.json file in the root directory. You can use it to test the component. You can also use your own data.
+There is an example.json file in the src directory. You can use it to test the component. You can also use your own data.
 
 Format:
 
