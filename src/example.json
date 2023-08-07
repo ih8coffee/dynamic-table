@@ -1,0 +1,84 @@
+{
+  "columns": [
+    { "title": "Name", "field": "name", "sortable": true },
+    { "title": "Surname", "field": "surname", "sortable": true },
+    { "title": "Age", "field": "age", "sortable": true },
+    { "title": "Email", "field": "email", "sortable": false },
+    { "title": "Gender", "field": "gender", "sortable": true }
+  ],
+  "rows": [
+    {
+      "name": "Alice",
+      "surname": "Johnson",
+      "age": 30,
+      "email": {
+        "Primary": "alice@example.com",
+        "Secondary": "ajohnson@example.com"
+      },
+      "gender": "Female"
+    },
+    {
+      "name": "Bob",
+      "surname": "Smith",
+      "age": 25,
+      "email": "bob@example.com",
+      "gender": "Male"
+    },
+    {
+      "name": "Charlie",
+      "surname": "Brown",
+      "age": 35,
+      "email": "charlie@example.com",
+      "gender": "Male"
+    },
+    {
+      "name": "David",
+      "surname": "Clark",
+      "age": 40,
+      "email": "david@example.com",
+      "gender": "Male"
+    },
+    {
+      "name": "Eva",
+      "surname": "Adams",
+      "age": 22,
+      "email": "eva@example.com",
+      "gender": "Female"
+    },
+    {
+      "name": "Frank",
+      "surname": "Miller",
+      "age": 29,
+      "email": "frank@example.com",
+      "gender": "Male"
+    },
+    {
+      "name": "Grace",
+      "surname": "Hall",
+      "age": 31,
+      "email": "grace@example.com",
+      "gender": "Female"
+    },
+    {
+      "name": "Hannah",
+      "surname": "Thompson",
+      "age": 27,
+      "email": "hannah@example.com",
+      "gender": "Female"
+    },
+    {
+      "name": "Ivy",
+      "surname": "Taylor",
+      "age": 23,
+      "email": "ivy@example.com",
+      "gender": "Female"
+    },
+    {
+      "name": "Jack",
+      "surname": "White",
+      "age": 33,
+      "email": "jack@example.com",
+      "gender": "Male"
+    }
+  ]
+}
