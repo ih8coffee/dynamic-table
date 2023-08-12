@@ -33,6 +33,13 @@ body {
   margin: 0 5px;
 }
 
+.expand-button {
+  cursor: pointer;
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+}
+
 th,
 tr,
 table {
@@ -49,4 +56,14 @@ table {
 
 table {
   min-width: 600px;
+}
+
+/* Initial state of the chevron */
+.chevron {
+  transition: transform 0.3s ease;
+}
+
+/* Rotated state */
+.chevron-rotate {
+  transform: rotate(90deg);
 }

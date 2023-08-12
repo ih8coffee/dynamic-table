@@ -11,11 +11,26 @@
       "name": "Alice",
       "surname": "Johnson",
       "age": 30,
-      "email": {
-        "Primary": "alice@example.com",
-        "Secondary": "ajohnson@example.com"
-      },
-      "gender": "Female"
+      "email": "alice@example.com",
+      "gender": "Female",
+      "nestedItems": [
+        {
+          "name": "nested",
+          "surname": "nested",
+          "age": 30,
+          "email": "nested@example.com",
+          "gender": "Female",
+          "nestedItems": [
+            {
+              "name": "nested",
+              "surname": "nested",
+              "age": 30,
+              "email": "nested@example.com",
+              "gender": "Female"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "Bob",

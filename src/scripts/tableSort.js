@@ -16,11 +16,6 @@ export function tableSort(props) {
     );
   };
 
-  const nestedItem = (field, row) =>
-    typeof row[field] === 'object' &&
-    row[field] !== null &&
-    !Array.isArray(row[field]);
-
   const sortedRows = computed(() => {
     const index = sortingState.value.findIndex(state => state !== 'reset');
     if (index === -1) return props.rows;
@@ -44,7 +39,6 @@ export function tableSort(props) {
   return {
     sortColumn,
     sortingState,
-    nestedItem,
     sortedRows,
   };
 }

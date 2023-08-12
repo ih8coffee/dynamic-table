@@ -7,7 +7,15 @@
       :caption="`Showing ${paginatedData.length} of ${
         Object.keys(this.allData.rows).length
       } rows`"
-    />
+    >
+      <template #header2="{ value }">
+        <strong style="color: red">{{ value }}</strong>
+      </template>
+
+      <template #column2="{ value }">
+        <em style="color: blue">{{ value }}</em>
+      </template>
+    </tables>
     <pagination
       :totalItems="Object.keys(allData.rows).length"
       :itemsPerPage="5"
