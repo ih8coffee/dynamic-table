@@ -34,4 +34,21 @@ Format:
 }
 ```
 
+Additionally, by attaching a nestedItems property to a row recursively renders expandable rows in the table.
+
+```json
+{
+  "rows": [
+    {
+      "foo": "bar"
+      "nestedItems": [
+        {
+            "foo": "bar"
+        }
+      ]
+    }
+  ]
+}
+```
+
 There is also an 'itemsPerPage' property in App.vue for pagination.
